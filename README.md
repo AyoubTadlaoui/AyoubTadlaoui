@@ -1,0 +1,95 @@
+<!-- ════════════════  HEADER  ════════════════ -->
+<div align="center">
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1e3a8a,50:0a0a0a,100:7f1d1d&height=210&section=header&text=Atlas%20Kaisar&fontSize=56&fontColor=ffffff&fontAlignY=36&desc=Solo%20founder%20·%20Systems%20builder%20·%20Honesty-first&descSize=18&descAlignY=58&animation=fadeIn" width="100%" alt="Atlas Kaisar" />
+
+<a href="https://github.com/AyoubTadlaoui">
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=3000&pause=900&color=3B82F6&center=true&vCenter=true&width=620&lines=Single-binary+developer+tools;Rust+%C2%B7+Go+%C2%B7+Swift+%C2%B7+TypeScript;Shipped+across+50%2B+platforms;Ship-or-die%2C+honesty+first" alt="typing" />
+</a>
+
+<br/>
+
+<img src="https://komarev.com/ghpvc/?username=AyoubTadlaoui&color=3b82f6&style=flat&label=Profile+views" alt="views" />
+&nbsp;
+<a href="https://github.com/AyoubTadlaoui?tab=followers"><img src="https://img.shields.io/github/followers/AyoubTadlaoui?style=flat&color=dc2626&labelColor=0a0a0a&label=Followers" alt="followers" /></a>
+
+</div>
+
+<!-- ════════════════  INTRO  ════════════════ -->
+
+### 🇲🇦 Solo founder & systems builder from Morocco
+
+Building software since **2016**. I came to code through **abstract algebra** — modulo arithmetic and abelian groups — and stayed for the craft of shipping. I build **single-binary developer tools** with a strong visual identity and an honesty-first engineering philosophy: native, dependency-light, distributed everywhere, no shortcuts.
+
+> *"High performance knows no part-time commitment."*
+
+---
+
+## 🚀 Shipped
+
+### 🎨 [atlas-ragnarok](https://github.com/AyoubTadlaoui/atlas-ragnarok) — multi-editor theme
+> *Thunder-blue thunder above, crimson fire below, pure black through the middle.* A coordinated color theme **plus a storm-fire GLSL background shader** — a combination almost no theme ships.
+
+![Rust](https://img.shields.io/badge/-Shader-3b82f6?style=flat&labelColor=0a0a0a&logo=opengl&logoColor=white)
+**Live on:** `VS Code` · `Open VSX` · `Zed` · `Sublime (Package Control)` · `JetBrains Marketplace` · `Ghostty + 30 terminals`
+
+### 🛡️ [npmguard](https://github.com/AyoubTadlaoui/npmguard) — pre-install risk gate for npm
+> A native risk gate that blocks malicious & typosquatted packages **before lifecycle scripts run** — with an **MCP tool** so AI coding agents (Claude Code, Cursor, Windsurf) get a verdict before they `npm install`.
+
+![Rust](https://img.shields.io/badge/-Rust-dc2626?style=flat&labelColor=0a0a0a&logo=rust&logoColor=white)
+![MCP](https://img.shields.io/badge/-MCP%20server-3b82f6?style=flat&labelColor=0a0a0a&logo=anthropic&logoColor=white)
+![Docker](https://img.shields.io/badge/-GHCR-3b82f6?style=flat&labelColor=0a0a0a&logo=docker&logoColor=white)
+[![Latest release](https://img.shields.io/github/v/release/AyoubTadlaoui/npmguard?style=flat&labelColor=0a0a0a&color=99ffe4&label=release)](https://github.com/AyoubTadlaoui/npmguard/releases/latest)
+
+### 📋 [GoLogX](https://github.com/AyoubTadlaoui/GoLogX) — zero-dependency Go logging
+> Pretty colored output, JSON, file rotation, and fan-out on top of Go's `log/slog`, plus a CLI to pretty-print JSON logs. **Zero external dependencies.**
+
+![Go](https://img.shields.io/badge/-Go-3b82f6?style=flat&labelColor=0a0a0a&logo=go&logoColor=white)
+**Distributed via:** `Homebrew` · `Scoop` · `WinGet` · `AUR` · `Nix` · `deb` · `rpm` · `Docker`
+
+### 📚 [GoFunAndChallenges](https://github.com/AyoubTadlaoui/GoFunAndChallenges) — hands-on Go course
+> 14 runnable lessons, 4 multi-concept challenges, and a project — every package has tests, proven by CI.
+
+![Go](https://img.shields.io/badge/-Go-3b82f6?style=flat&labelColor=0a0a0a&logo=go&logoColor=white)
+
+---
+
+## 🧰 Stack
+
+<div align="center">
+
+![](https://skillicons.dev/icons?i=rust,go,swift,ts,js,react,flutter,python,docker,postgres,linux,bash,git,githubactions&theme=dark)
+
+</div>
+
+---
+
+## 📊 GitHub
+
+<div align="center">
+
+<img height="170" src="https://github-readme-stats.vercel.app/api?username=AyoubTadlaoui&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&bg_color=0d1117&title_color=3b82f6&icon_color=99ffe4&text_color=c9d1d9" alt="stats" />
+<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=AyoubTadlaoui&layout=compact&langs_count=8&hide_border=true&bg_color=0d1117&title_color=3b82f6&text_color=c9d1d9" alt="langs" />
+
+<img src="https://streak-stats.demolab.com?user=AyoubTadlaoui&hide_border=true&background=0d1117&stroke=1e3a8a&ring=3b82f6&fire=dc2626&currStreakLabel=3b82f6&sideLabels=c9d1d9&dates=8b949e&currStreakNum=ffffff&sideNums=ffffff" alt="streak" />
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=AyoubTadlaoui&bg_color=0d1117&color=ffffff&line=3b82f6&point=dc2626&area=true&hide_border=true" alt="activity" width="100%" />
+
+<!-- contribution snake (generated by .github/workflows/snake.yml → output branch) -->
+<img src="https://raw.githubusercontent.com/AyoubTadlaoui/AyoubTadlaoui/output/github-snake-dark.svg" alt="snake" width="100%" />
+
+</div>
+
+---
+
+## 🤝 Connect
+
+<div align="center">
+
+<a href="mailto:xdevmanfounder@gmail.com"><img src="https://img.shields.io/badge/Email-dc2626?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0a0a0a" alt="email" /></a>
+<a href="https://github.com/AyoubTadlaoui"><img src="https://img.shields.io/badge/GitHub-3b82f6?style=for-the-badge&logo=github&logoColor=white&labelColor=0a0a0a" alt="github" /></a>
+<a href="https://glama.ai/mcp/servers/AyoubTadlaoui/npmguard"><img src="https://img.shields.io/badge/MCP%20on%20Glama-99ffe4?style=for-the-badge&logo=anthropic&logoColor=black&labelColor=0a0a0a" alt="glama" /></a>
+
+</div>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:7f1d1d,50:0a0a0a,100:1e3a8a&height=120&section=footer" width="100%" alt="footer" />
