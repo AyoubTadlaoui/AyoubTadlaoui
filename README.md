@@ -68,9 +68,6 @@ Building software since **2016**. I came to code through **abstract algebra** â€
 
 <div align="center">
 
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=AyoubTadlaoui&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&bg_color=0d1117&title_color=3b82f6&icon_color=99ffe4&text_color=c9d1d9" alt="stats" />
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=AyoubTadlaoui&layout=compact&langs_count=8&hide_border=true&bg_color=0d1117&title_color=3b82f6&text_color=c9d1d9" alt="langs" />
-
 <img src="https://streak-stats.demolab.com?user=AyoubTadlaoui&hide_border=true&background=0d1117&stroke=1e3a8a&ring=3b82f6&fire=dc2626&currStreakLabel=3b82f6&sideLabels=c9d1d9&dates=8b949e&currStreakNum=ffffff&sideNums=ffffff" alt="streak" />
 
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=AyoubTadlaoui&bg_color=0d1117&color=ffffff&line=3b82f6&point=dc2626&area=true&hide_border=true" alt="activity" width="100%" />
