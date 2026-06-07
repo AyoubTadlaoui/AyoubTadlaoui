@@ -41,7 +41,7 @@ A color theme for the whole desk, not one editor. Thunder blue at the top, pure 
 
 [![Go](https://img.shields.io/badge/Go-1e3a8a?style=flat&labelColor=0a0a0a&logo=go&logoColor=white)](https://github.com/AyoubTadlaoui/GoLogX)
 [![Dependencies](https://img.shields.io/badge/dependencies-0-3b82f6?style=flat&labelColor=0a0a0a)](https://github.com/AyoubTadlaoui/GoLogX)
-[![Latest release](https://img.shields.io/badge/release-v0.2.0-7f1d1d?style=flat&labelColor=0a0a0a)](https://github.com/AyoubTadlaoui/GoLogX/releases/latest)
+[![Latest release](https://img.shields.io/badge/release-v0.2.1-7f1d1d?style=flat&labelColor=0a0a0a)](https://github.com/AyoubTadlaoui/GoLogX/releases/latest)
 
 Zero-dependency logging for Go, built on top of the standard library log/slog. Colored output, JSON, file rotation, fan-out, and a small CLI that pretty-prints JSON logs. No external dependencies at all. Packaged for Homebrew · Scoop · WinGet · AUR · Nix · deb · rpm · Docker.
 
