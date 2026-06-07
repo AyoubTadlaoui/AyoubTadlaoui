@@ -14,10 +14,6 @@ Single-binary developer tools. Native, dependency-light, distributed where peopl
 
 I have been writing software since 2016. I came to code through abstract algebra: modulo arithmetic, abelian groups. I stayed for the craft of shipping, for carrying a thing all the way to where a stranger can install it and trust it.
 
-Everything below is a record of where I was, not where I am headed. I measure each tool against the one before it, not against the crowd. The real comparison is with the version I have not built yet. That gap is the job.
-
-## What I've shipped
-
 ### [npmguard](https://github.com/AyoubTadlaoui/npmguard)
 
 [![Rust](https://img.shields.io/badge/Rust-1e3a8a?style=flat&labelColor=0a0a0a&logo=rust&logoColor=white)](https://github.com/AyoubTadlaoui/npmguard)
