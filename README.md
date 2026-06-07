@@ -25,7 +25,7 @@ Everything below is a record of where I was, not where I am headed. I measure ea
 [![GHCR](https://img.shields.io/badge/GHCR-published-dc2626?style=flat&labelColor=0a0a0a&logo=docker&logoColor=white)](https://github.com/AyoubTadlaoui/npmguard/pkgs/container/npmguard-mcp)
 [![License MIT](https://img.shields.io/badge/license-MIT-3b82f6?style=flat&labelColor=0a0a0a)](https://github.com/AyoubTadlaoui/npmguard/blob/main/LICENSE)
 [![Latest release](https://img.shields.io/github/v/release/AyoubTadlaoui/npmguard?style=flat&labelColor=0a0a0a&color=7f1d1d)](https://github.com/AyoubTadlaoui/npmguard/releases/latest)
-[![Listed in awesome-software-supply-chain-security](https://img.shields.io/badge/listed-awesome--supply--chain--security-3b82f6?style=flat&labelColor=0a0a0a)](https://github.com/bureado/awesome-software-supply-chain-security)
+[![Listed in awesome-software-supply-chain-security](https://img.shields.io/badge/listed-awesome--supply--chain--security-3b82f6?style=flat&labelColor=0a0a0a)](https://github.com/bureado/awesome-software-supply-chain-security/pull/65)
 
 A native pre-install risk gate for npm. It blocks malicious and typosquatted packages before any lifecycle script runs. It also ships an MCP tool, so an AI coding agent (Claude Code, Cursor, Windsurf) gets a verdict before it installs anything. Written in Rust, and it lives outside npm on purpose. A gate that ships inside the thing it is guarding is not really a gate.
 
