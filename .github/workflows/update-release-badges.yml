@@ -1,0 +1,61 @@
+name: update release badges
+
+# Keeps the version on each "release" badge in README.md in sync with the
+# latest GitHub release of the corresponding repo. Static badge text (so it
+# never depends on shields.io's GitHub token pool), refreshed here on a
+# schedule and on demand.
+
+on:
+  schedule:
+    - cron: "17 6 * * *"   # daily, 06:17 UTC
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-release-badges
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Refresh version badges from latest releases
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          set -euo pipefail
+
+          # repo name -> owner is always AyoubTadlaoui. Add a line here to track
+          # another repo's release badge.
+          repos="npmguard atlas-ragnarok GoLogX"
+
+          for repo in $repos; do
+            ver="$(gh api "repos/AyoubTadlaoui/$repo/releases/latest" --jq '.tag_name' 2>/dev/null || true)"
+            if [ -z "$ver" ] || [ "$ver" = "null" ]; then
+              echo "no release for $repo, leaving its badge as-is"
+              continue
+            fi
+            # shields.io message escaping: a literal dash becomes '--'.
+            enc="${ver//-/--}"
+            # Update only the badge on the line that links to THIS repo's latest
+            # release; keep its existing color (capture group 1).
+            perl -i -pe 'if (m{AyoubTadlaoui/'"$repo"'/releases/latest}) { s{badge/release-.*?-([0-9a-fA-F]{6})\?}{badge/release-'"$enc"'-$1?} }' README.md
+            echo "$repo -> $ver"
+          done
+
+      - name: Commit if changed
+        run: |
+          set -euo pipefail
+          if [ -z "$(git status --porcelain README.md)" ]; then
+            echo "no badge changes"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git commit -m "update readme"
+          git push
