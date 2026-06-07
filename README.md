@@ -24,7 +24,7 @@ Everything below is a record of where I was, not where I am headed. I measure ea
 [![MCP server](https://img.shields.io/badge/MCP-server-3b82f6?style=flat&labelColor=0a0a0a)](https://github.com/AyoubTadlaoui/npmguard)
 [![GHCR](https://img.shields.io/badge/GHCR-published-dc2626?style=flat&labelColor=0a0a0a&logo=docker&logoColor=white)](https://github.com/AyoubTadlaoui/npmguard/pkgs/container/npmguard-mcp)
 [![License MIT](https://img.shields.io/badge/license-MIT-3b82f6?style=flat&labelColor=0a0a0a)](https://github.com/AyoubTadlaoui/npmguard/blob/main/LICENSE)
-[![Latest release](https://img.shields.io/github/v/release/AyoubTadlaoui/npmguard?style=flat&labelColor=0a0a0a&color=7f1d1d)](https://github.com/AyoubTadlaoui/npmguard/releases/latest)
+[![Latest release](https://img.shields.io/badge/release-latest-7f1d1d?style=flat&labelColor=0a0a0a)](https://github.com/AyoubTadlaoui/npmguard/releases/latest)
 [![Listed in awesome-software-supply-chain-security](https://img.shields.io/badge/listed-awesome--supply--chain--security-3b82f6?style=flat&labelColor=0a0a0a)](https://github.com/bureado/awesome-software-supply-chain-security/pull/65)
 
 A native pre-install risk gate for npm. It blocks malicious and typosquatted packages before any lifecycle script runs. It also ships an MCP tool, so an AI coding agent (Claude Code, Cursor, Windsurf) gets a verdict before it installs anything. Written in Rust, and it lives outside npm on purpose. A gate that ships inside the thing it is guarding is not really a gate.
@@ -32,7 +32,7 @@ A native pre-install risk gate for npm. It blocks malicious and typosquatted pac
 ### [atlas-ragnarok](https://github.com/AyoubTadlaoui/atlas-ragnarok)
 
 [![GLSL shader](https://img.shields.io/badge/GLSL-shader-7f1d1d?style=flat&labelColor=0a0a0a)](https://github.com/AyoubTadlaoui/atlas-ragnarok)
-[![Latest release](https://img.shields.io/github/v/release/AyoubTadlaoui/atlas-ragnarok?style=flat&labelColor=0a0a0a&color=1e3a8a)](https://github.com/AyoubTadlaoui/atlas-ragnarok/releases/latest)
+[![Latest release](https://img.shields.io/badge/release-latest-1e3a8a?style=flat&labelColor=0a0a0a)](https://github.com/AyoubTadlaoui/atlas-ragnarok/releases/latest)
 [![Zed extension registry](https://img.shields.io/badge/Zed-extension%20registry-7f1d1d?style=flat&labelColor=0a0a0a)](https://github.com/zed-industries/extensions/pull/6129)
 
 A color theme for the whole desk, not one editor. Thunder blue at the top, pure black through the middle, crimson fire at the bottom, with a storm-fire GLSL background shader to match. That pairing is rare in a theme. One palette kept in sync across VS Code · Open VSX · Zed · Sublime Text · JetBrains · Ghostty and 30 more terminals.
@@ -41,7 +41,7 @@ A color theme for the whole desk, not one editor. Thunder blue at the top, pure 
 
 [![Go](https://img.shields.io/badge/Go-1e3a8a?style=flat&labelColor=0a0a0a&logo=go&logoColor=white)](https://github.com/AyoubTadlaoui/GoLogX)
 [![Dependencies](https://img.shields.io/badge/dependencies-0-3b82f6?style=flat&labelColor=0a0a0a)](https://github.com/AyoubTadlaoui/GoLogX)
-[![Latest release](https://img.shields.io/github/v/release/AyoubTadlaoui/GoLogX?style=flat&labelColor=0a0a0a&color=7f1d1d)](https://github.com/AyoubTadlaoui/GoLogX/releases/latest)
+[![Latest release](https://img.shields.io/badge/release-latest-7f1d1d?style=flat&labelColor=0a0a0a)](https://github.com/AyoubTadlaoui/GoLogX/releases/latest)
 
 Zero-dependency logging for Go, built on top of the standard library log/slog. Colored output, JSON, file rotation, fan-out, and a small CLI that pretty-prints JSON logs. No external dependencies at all. Packaged for Homebrew · Scoop · WinGet · AUR · Nix · deb · rpm · Docker.
 
