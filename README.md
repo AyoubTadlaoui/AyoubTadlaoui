@@ -11,7 +11,7 @@
 
 <a href="https://github.com/bureado/awesome-software-supply-chain-security/pull/65"><img src="https://img.shields.io/badge/Listed%20in-awesome--software--supply--chain--security-1e8e3e?style=flat&labelColor=0a0a0a&logo=github&logoColor=white" alt="Listed in awesome-software-supply-chain-security (bureado PR #65, merged)" /></a>
 &nbsp;
-<a href="https://github.com/zed-industries/extensions/pull/6129"><img src="https://img.shields.io/badge/Accepted%20into-Zed%20extension%20registry-1e8e3e?style=flat&labelColor=0a0a0a&logo=zedindustries&logoColor=white" alt="atlas-ragnarok accepted into the Zed extension registry (PR #6129, merged)" /></a>
+<a href="https://github.com/avelino/awesome-go/pull/6389"><img src="https://img.shields.io/badge/Listed%20in-awesome--go-1e8e3e?style=flat&labelColor=0a0a0a&logo=go&logoColor=white" alt="GoLogX listed in awesome-go (avelino PR #6389, merged)" /></a>
 
 
 
@@ -61,8 +61,8 @@ A tamper-evident audit core for Go. An append-only, hash-chained, optionally Ed2
 
 **Merged (landed):**
 
-- Listed in the [awesome-software-supply-chain-security](https://github.com/bureado/awesome-software-supply-chain-security/pull/65) registry (bureado, PR #65).
-- atlas-ragnarok accepted into the [Zed extension registry](https://github.com/zed-industries/extensions/pull/6129) (PR #6129).
+- npmguard listed in the [awesome-software-supply-chain-security](https://github.com/bureado/awesome-software-supply-chain-security/pull/65) registry (bureado, PR #65).
+- GoLogX listed in [awesome-go](https://github.com/avelino/awesome-go/pull/6389) (avelino, PR #6389).
 
 **Proposed upstream (open, in review, not merged):**
 
