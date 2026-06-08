@@ -80,7 +80,7 @@ The same install-time gate, pushed into the agents themselves as a supply-chain 
 
 ## ❯ Also (personal, not the security line)
 
-- **[atlas-ragnarok](https://github.com/AyoubTadlaoui/atlas-ragnarok)**: a terminal color theme plus a storm-fire GLSL shader, accepted into the Zed extension registry.
+- **[atlas-ragnarok](https://github.com/AyoubTadlaoui/atlas-ragnarok)**: a terminal color theme plus a storm-fire GLSL shader, accepted into the Zed extension registry. [![Accepted into the Zed extension registry](https://img.shields.io/badge/Zed%20registry-atlas--ragnarok-1e8e3e?style=flat&labelColor=0a0a0a&logo=zedindustries&logoColor=white)](https://github.com/zed-industries/extensions/pull/6129)
 - **[GoFunAndChallenges](https://github.com/AyoubTadlaoui/GoFunAndChallenges)**: a hands-on Go course, runnable lessons and challenges, every package tested.
 
 ---
