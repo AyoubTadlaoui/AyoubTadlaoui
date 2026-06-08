@@ -13,7 +13,7 @@
 &nbsp;
 <a href="https://github.com/zed-industries/extensions/pull/6129"><img src="https://img.shields.io/badge/Accepted%20into-Zed%20extension%20registry-1e8e3e?style=flat&labelColor=0a0a0a&logo=zedindustries&logoColor=white" alt="atlas-ragnarok accepted into the Zed extension registry (PR #6129, merged)" /></a>
 
-<sub>Both badges link to a merged PR. Click either one and verify it in one hop.</sub>
+
 
 </div>
 
