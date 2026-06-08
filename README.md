@@ -1,66 +1,107 @@
+<!-- ════════════════  HEADER  ════════════════ -->
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1e3a8a,50:0a0a0a,100:7f1d1d&height=200&section=header&text=Atlas%20Kaisar&fontColor=ffffff" alt="Atlas Kaisar" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1e3a8a,50:0a0a0a,100:7f1d1d&height=200&section=header&text=Atlas%20Kaisar&fontSize=54&fontColor=ffffff&fontAlignY=36&desc=Trust%20boundary%20for%20autonomous%20code&descSize=17&descAlignY=58" width="100%" alt="Atlas Kaisar" />
 
-**Solo founder and systems builder. Morocco.**
+</div>
 
-Single-binary developer tools. Native, dependency-light, distributed where people already are.
+<!-- ════════════════  BLOCK 1 · PROOF (merged, clickable) ════════════════ -->
 
-<img src="https://skillicons.dev/icons?i=rust,go,swift,ts,js,react,flutter,python,docker,postgres,linux,bash,git,githubactions&theme=dark" alt="stack" />
+<div align="center">
+
+<a href="https://github.com/bureado/awesome-software-supply-chain-security/pull/65"><img src="https://img.shields.io/badge/Listed%20in-awesome--software--supply--chain--security-1e8e3e?style=flat&labelColor=0a0a0a&logo=github&logoColor=white" alt="Listed in awesome-software-supply-chain-security (bureado PR #65, merged)" /></a>
+&nbsp;
+<a href="https://github.com/zed-industries/extensions/pull/6129"><img src="https://img.shields.io/badge/Accepted%20into-Zed%20extension%20registry-1e8e3e?style=flat&labelColor=0a0a0a&logo=zedindustries&logoColor=white" alt="atlas-ragnarok accepted into the Zed extension registry (PR #6129, merged)" /></a>
+
+<sub>Both badges link to a merged PR. Click either one and verify it in one hop.</sub>
 
 </div>
 
 ---
 
-I have been writing software since 2016. I came to code through abstract algebra: modulo arithmetic, abelian groups.
+<!-- ════════════════  BLOCK 2 · THROUGH-LINE ════════════════ -->
 
+I build the trust boundary for autonomous code. If you let an AI agent run `npm install` on its own, you need two things: a gate on what is allowed in, and a record of what it did that you cannot quietly edit afterward.
 
-### [npmguard](https://github.com)
-[![Rust](https://img.shields.io/badge/Rust-1e3a8a?style=flat&labelColor=0a0a0a&logo=rust&logoColor=white)](https://github.com/AyoubTadlaoui/npmguard)
-[![MCP server](https://img.shields.io/badge/MCP-server-3b82f6?style=flat&labelColor=0a0a0a)](https://github.com/AyoubTadlaoui/npmguard)
-[![GHCR](https://img.shields.io/badge/GHCR-published-dc2626?style=flat&labelColor=0a0a0a&logo=docker&logoColor=white)](https://github.com/AyoubTadlaoui/npmguard/pkgs/container/npmguard-mcp)
-[![License MIT](https://img.shields.io/badge/license-MIT-3b82f6?style=flat&labelColor=0a0a0a)](https://github.com/AyoubTadlaoui/npmguard/blob/main/LICENSE)
-[![Latest release](https://img.shields.io/badge/release-v0.1.7-7f1d1d?style=flat&labelColor=0a0a0a)](https://github.com/AyoubTadlaoui/npmguard/releases/latest)
-[![Listed in awesome-software-supply-chain-security](https://img.shields.io/badge/listed-awesome--supply--chain--security-3b82f6?style=flat&labelColor=0a0a0a)](https://github.com/bureado/awesome-software-supply-chain-security/pull/65)
+**npmguard** is the inbound gate. **GoLogX** is the outbound record. The same install-time gate is also being proposed upstream into the agents themselves. Single-binary, dependency-light, carried all the way to install.
 
-A native pre-install risk gate for npm. It blocks malicious and typosquatted packages before any lifecycle script runs. It also ships an MCP tool, so an AI coding agent (Claude Code, Cursor, Codex) gets a verdict before it installs anything. Written in Rust, and it lives outside npm on purpose. A gate that ships inside the thing it is guarding is not really a gate.
-
-### [atlas-ragnarok](https://github.com/AyoubTadlaoui/atlas-ragnarok)
-
-[![GLSL shader](https://img.shields.io/badge/GLSL-shader-7f1d1d?style=flat&labelColor=0a0a0a)](https://github.com/AyoubTadlaoui/atlas-ragnarok)
-[![Latest release](https://img.shields.io/badge/release-v1.1.0-1e3a8a?style=flat&labelColor=0a0a0a)](https://github.com/AyoubTadlaoui/atlas-ragnarok/releases/latest)
-[![Zed extension registry](https://img.shields.io/badge/Zed-extension%20registry-7f1d1d?style=flat&labelColor=0a0a0a)](https://github.com/zed-industries/extensions/pull/6129)
-
-A color theme for the whole desk, not one editor. Thunder blue at the top, pure black through the middle, crimson fire at the bottom, with a storm-fire GLSL background shader to match. That pairing is rare in a theme. One palette kept in sync across VS Code · Open VSX · Zed · Sublime Text · JetBrains · Ghostty and 30 more terminals.
-
-### [GoLogX](https://github.com/AyoubTadlaoui/GoLogX)
-
-[![Go](https://img.shields.io/badge/Go-1e3a8a?style=flat&labelColor=0a0a0a&logo=go&logoColor=white)](https://github.com/AyoubTadlaoui/GoLogX)
-[![Dependencies](https://img.shields.io/badge/dependencies-0-3b82f6?style=flat&labelColor=0a0a0a)](https://github.com/AyoubTadlaoui/GoLogX)
-[![Latest release](https://img.shields.io/badge/release-v0.2.1-7f1d1d?style=flat&labelColor=0a0a0a)](https://github.com/AyoubTadlaoui/GoLogX/releases/latest)
-
-Zero-dependency logging for Go, built on top of the standard library log/slog. Colored output, JSON, file rotation, fan-out, and a small CLI that pretty-prints JSON logs. No external dependencies at all. Packaged for Homebrew · Scoop · WinGet · AUR · Nix · deb · rpm · Docker.
-
-### [GoFunAndChallenges](https://github.com/AyoubTadlaoui/GoFunAndChallenges)
-
-[![Go](https://img.shields.io/badge/Go-1e3a8a?style=flat&labelColor=0a0a0a&logo=go&logoColor=white)](https://github.com/AyoubTadlaoui/GoFunAndChallenges)
-[![Lessons](https://img.shields.io/badge/lessons-14-3b82f6?style=flat&labelColor=0a0a0a)](https://github.com/AyoubTadlaoui/GoFunAndChallenges)
-[![Tested](https://img.shields.io/badge/every%20package-tested-7f1d1d?style=flat&labelColor=0a0a0a)](https://github.com/AyoubTadlaoui/GoFunAndChallenges)
-
-A hands-on Go course. 14 runnable lessons, 4 multi-concept challenges, and a project to tie it together. Every package has tests, and CI proves it. It is the thing I wish I had when I started, written for whoever is starting now.
-
-## How I build
-
-- One binary I can read end to end, not a dependency tree I have to trust on faith. Every dependency has to earn its place or it stays out.
-- Distributed to where people already are, so installing is a single line.
-- Honest about what a tool does and what it does not. I would rather ship less and mean all of it.
-- The hard parts get finished when no one is watching. That is the only standard worth keeping.
+> Gate the install. Record the action.
 
 ---
 
+<!-- ════════════════  BLOCK 3 · SECURITY LINE (the brand) ════════════════ -->
+
+## ❯ TrustSeam, the security line
+
+### [npmguard](https://github.com/AyoubTadlaoui/npmguard) · Rust
+
+An npm install firewall for AI coding agents. It scores every package against OSV malware data, typosquat and slopsquat heuristics, and install-script analysis, then returns a verdict **before any lifecycle script runs**. Works in Claude Code, Cursor, and Codex over MCP, or as a plain CLI.
+
+**Proof you can check:** refuses real OSV malware (for example `lodahs`, MAL-2025-25502). Ships as one Rust binary, deliberately **off npm** and installed straight from source, so the gate cannot be poisoned by the registry it guards.
+
+![Rust](https://img.shields.io/badge/-Rust-dc2626?style=flat&labelColor=0a0a0a&logo=rust&logoColor=white)
+![MCP](https://img.shields.io/badge/-MCP%20server-3b82f6?style=flat&labelColor=0a0a0a&logo=anthropic&logoColor=white)
+[![Release](https://img.shields.io/badge/release-v0.1.7-3b82f6?style=flat&labelColor=0a0a0a)](https://github.com/AyoubTadlaoui/npmguard/releases/latest)
+
+### [GoLogX](https://github.com/AyoubTadlaoui/GoLogX) · Go
+
+A tamper-evident audit core for Go. An append-only, hash-chained, optionally Ed25519-signed `log/slog` handler. If anyone edits, deletes, reorders, or forges a line, the offline `logx verify` command catches it and reports the first entry that was touched.
+
+**Proof you can check:** zero external dependencies. The integrity code is built on the standard library alone (`crypto/sha256`, `crypto/ed25519`, `crypto/rand`), so the thing that proves your logs were not tampered with carries no third-party code in its own trust path.
+
+![Go](https://img.shields.io/badge/-Go-3b82f6?style=flat&labelColor=0a0a0a&logo=go&logoColor=white)
+![Zero deps](https://img.shields.io/badge/-zero%20external%20deps-1e8e3e?style=flat&labelColor=0a0a0a)
+[![Release](https://img.shields.io/badge/release-v0.2.1-3b82f6?style=flat&labelColor=0a0a0a)](https://github.com/AyoubTadlaoui/GoLogX/releases/latest)
+
+---
+
+<!-- ════════════════  BLOCK 4 · UPSTREAM / CONTRIBUTIONS ════════════════ -->
+
+## ❯ Upstream
+
+**Merged (landed):**
+
+- Listed in the [awesome-software-supply-chain-security](https://github.com/bureado/awesome-software-supply-chain-security/pull/65) registry (bureado, PR #65).
+- atlas-ragnarok accepted into the [Zed extension registry](https://github.com/zed-industries/extensions/pull/6129) (PR #6129).
+
+**Proposed upstream (open, in review, not merged):**
+
+The same install-time gate, pushed into the agents themselves as a supply-chain inspector.
+
+- Goose: supply-chain typosquat inspector, [open PR #9642](https://github.com/block/goose/pull/9642), in review.
+- OpenHands: SupplyChainSecurityAnalyzer, [open issue #3560](https://github.com/OpenHands/software-agent-sdk/issues/3560). Maintainers triaged it as an enhancement and pinged their security lead.
+- Cline: [open issue #11340](https://github.com/cline/cline/issues/11340).
+- Continue: [open issue #12573](https://github.com/continuedev/continue/issues/12573).
+- Crush: [open issue #3090](https://github.com/charmbracelet/crush/issues/3090).
+
+---
+
+<!-- ════════════════  BLOCK 5 · ALSO / PERSONAL ════════════════ -->
+
+## ❯ Also (personal, not the security line)
+
+- **[atlas-ragnarok](https://github.com/AyoubTadlaoui/atlas-ragnarok)**: a terminal color theme plus a storm-fire GLSL shader, accepted into the Zed extension registry.
+- **[GoFunAndChallenges](https://github.com/AyoubTadlaoui/GoFunAndChallenges)**: a hands-on Go course, runnable lessons and challenges, every package tested.
+
+---
+
+<!-- ════════════════  STACK ════════════════ -->
+
 <div align="center">
 
-[![GitHub](https://img.shields.io/badge/GitHub-AyoubTadlaoui-0a0a0a?style=flat&logo=github&logoColor=white)](https://github.com/AyoubTadlaoui)
-[![Email](https://img.shields.io/badge/Email-atlas.kaisar%40icloud.com-7f1d1d?style=flat&logo=icloud&logoColor=white)](mailto:atlas.kaisar@icloud.com)
+![](https://skillicons.dev/icons?i=rust,go,swift,ts,js,react,python,docker,postgres,linux,bash,git,githubactions&theme=dark)
 
 </div>
+
+---
+
+<!-- ════════════════  CONNECT ════════════════ -->
+
+<div align="center">
+
+<a href="mailto:atlas.kaisar@icloud.com"><img src="https://img.shields.io/badge/Email-dc2626?style=for-the-badge&logo=maildotru&logoColor=white&labelColor=0a0a0a" alt="email" /></a>
+<a href="https://github.com/AyoubTadlaoui"><img src="https://img.shields.io/badge/GitHub-3b82f6?style=for-the-badge&logo=github&logoColor=white&labelColor=0a0a0a" alt="github" /></a>
+
+</div>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:7f1d1d,50:0a0a0a,100:1e3a8a&height=110&section=footer" width="100%" alt="footer" />
