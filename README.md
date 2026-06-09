@@ -41,7 +41,7 @@ An npm install firewall for AI coding agents. It scores every package against OS
 
 ![Rust](https://img.shields.io/badge/-Rust-dc2626?style=flat&labelColor=0a0a0a&logo=rust&logoColor=white)
 ![MCP](https://img.shields.io/badge/-MCP%20server-3b82f6?style=flat&labelColor=0a0a0a&logo=anthropic&logoColor=white)
-[![Release](https://img.shields.io/badge/release-v0.1.7-3b82f6?style=flat&labelColor=0a0a0a)](https://github.com/AyoubTadlaoui/npmguard/releases/latest)
+[![Release](https://img.shields.io/badge/release-v0.1.8-3b82f6?style=flat&labelColor=0a0a0a)](https://github.com/AyoubTadlaoui/npmguard/releases/latest)
 
 ### [GoLogX](https://github.com/AyoubTadlaoui/GoLogX) · Go
 
@@ -51,7 +51,7 @@ A tamper-evident audit core for Go. An append-only, hash-chained, optionally Ed2
 
 ![Go](https://img.shields.io/badge/-Go-3b82f6?style=flat&labelColor=0a0a0a&logo=go&logoColor=white)
 ![Zero deps](https://img.shields.io/badge/-zero%20external%20deps-1e8e3e?style=flat&labelColor=0a0a0a)
-[![Release](https://img.shields.io/badge/release-v0.2.1-3b82f6?style=flat&labelColor=0a0a0a)](https://github.com/AyoubTadlaoui/GoLogX/releases/latest)
+[![Release](https://img.shields.io/badge/release-v0.3.0-3b82f6?style=flat&labelColor=0a0a0a)](https://github.com/AyoubTadlaoui/GoLogX/releases/latest)
 
 ---
 
