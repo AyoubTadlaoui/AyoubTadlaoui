@@ -40,7 +40,7 @@ An npm install firewall for AI coding agents. It scores every package against OS
 **Proof you can check:** refuses real OSV malware (for example `lodahs`, MAL-2025-25502). Ships as one Rust binary, deliberately **off npm** and installed straight from source, so the gate cannot be poisoned by the registry it guards.
 
 ![Rust](https://img.shields.io/badge/-Rust-dc2626?style=flat&labelColor=0a0a0a&logo=rust&logoColor=white)
-![MCP](https://img.shields.io/badge/-MCP%20server-3b82f6?style=flat&labelColor=0a0a0a&logo=anthropic&logoColor=white)
+[![MCP](https://img.shields.io/badge/-MCP%20server-3b82f6?style=flat&labelColor=0a0a0a&logo=anthropic&logoColor=white)](https://glama.ai/mcp/servers/AyoubTadlaoui/npmguard)
 [![Release](https://img.shields.io/badge/release-v0.1.8-3b82f6?style=flat&labelColor=0a0a0a)](https://github.com/AyoubTadlaoui/npmguard/releases/latest)
 
 ### [GoLogX](https://github.com/AyoubTadlaoui/GoLogX) · Go
@@ -50,7 +50,7 @@ A tamper-evident audit core for Go. An append-only, hash-chained, optionally Ed2
 **Proof you can check:** zero external dependencies. The integrity code is built on the standard library alone (`crypto/sha256`, `crypto/ed25519`, `crypto/rand`), so the thing that proves your logs were not tampered with carries no third-party code in its own trust path.
 
 ![Go](https://img.shields.io/badge/-Go-3b82f6?style=flat&labelColor=0a0a0a&logo=go&logoColor=white)
-![MCP](https://img.shields.io/badge/-MCP%20server-3b82f6?style=flat&labelColor=0a0a0a&logo=anthropic&logoColor=white)
+[![MCP](https://img.shields.io/badge/-MCP%20server-3b82f6?style=flat&labelColor=0a0a0a&logo=anthropic&logoColor=white)](https://glama.ai/mcp/servers/AyoubTadlaoui/GoLogX)
 ![Zero deps](https://img.shields.io/badge/-zero%20external%20deps-1e8e3e?style=flat&labelColor=0a0a0a)
 [![Release](https://img.shields.io/badge/release-v0.3.0-3b82f6?style=flat&labelColor=0a0a0a)](https://github.com/AyoubTadlaoui/GoLogX/releases/latest)
 
