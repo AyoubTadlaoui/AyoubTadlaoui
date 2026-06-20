@@ -69,11 +69,11 @@ A tamper-evident audit core for Go. An append-only, hash-chained, optionally Ed2
 
 The same install-time gate, pushed into the agents themselves as a supply-chain inspector.
 
-- Goose: supply-chain typosquat inspector, [open PR #9642](https://github.com/block/goose/pull/9642), in review.
+- Continue: idea adopted by a maintainer and implemented in [open PR #12727](https://github.com/continuedev/continue/pull/12727) (not yet merged, their commit). From [open issue #12573](https://github.com/continuedev/continue/issues/12573).
 - OpenHands: SupplyChainSecurityAnalyzer, [open issue #3560](https://github.com/OpenHands/software-agent-sdk/issues/3560). Maintainers triaged it as an enhancement and pinged their security lead.
 - Cline: [open issue #11340](https://github.com/cline/cline/issues/11340).
-- Continue: [open issue #12573](https://github.com/continuedev/continue/issues/12573).
 - Crush: [open issue #3090](https://github.com/charmbracelet/crush/issues/3090).
+- Goose: supply-chain typosquat inspector, [PR #9642](https://github.com/block/goose/pull/9642), closed by a maintainer who praised the work and asked for a smaller, design-aligned PR first.
 
 ---
 
